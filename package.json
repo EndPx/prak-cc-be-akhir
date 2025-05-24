@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
