@@ -7,4 +7,4 @@ app.use(cors());
 app.use(express.json());
 app.use("/api", allRoutes);
 
-app.listen(5000, () => console.log("Server jalan di port 5000"))
+app.listen(5001, () => console.log("Server jalan di port 5001"))
