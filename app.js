@@ -4,7 +4,7 @@ const allRoutes = require('./routes');
 
 const app = express();
 app.use(cors({
-  origin: 'http://localhost:3000',
+  origin: ['http://localhost:3000','https://tcc-fe-akhir-292820894391.us-central1.run.app'],
   credentials: true
 }));
 app.use(express.json());
